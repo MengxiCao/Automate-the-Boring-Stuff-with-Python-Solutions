@@ -9,7 +9,7 @@ def display_inventory(inventory):
     print ('Total number of items: '+ str(total))
 
 def add_to_inventory(inventory, addedItems):
-    for item in dragonLoot:
+    for item in addedItems:
         if item not in inventory:
             inventory.setdefault(item, 1)
         else:
